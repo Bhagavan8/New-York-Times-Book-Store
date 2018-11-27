@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="New York Times Book Store">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <property name="context-root" value="New_York_Times_Book_Store"/>
+        <property name="java-output-path" value="/New York Times Book Store/build/classes"/>
+    </wb-module>
+</project-modules>

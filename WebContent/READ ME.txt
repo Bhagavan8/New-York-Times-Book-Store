@@ -1,0 +1,10 @@
+NEW YORK TIMES BOOK STORE
+
+1.Open WelcomePage.html //its home page of New York Times Best Bookseller 
+ 
+2.Click on menu (=),right top of the page. //its  contains fields Like About us,Books,Contact Login and Register
+
+3.below You will find socail media
+
+
+ 

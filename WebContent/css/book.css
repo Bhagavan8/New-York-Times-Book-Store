@@ -1,0 +1,21 @@
+p{
+	width:80%;
+}
+
+.column {
+  float: left;
+  width: 20%;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+h5{
+	color:black;
+}
+h4{
+	color:red;
+}
