@@ -5,30 +5,29 @@
  <link rel="stylesheet" href="css/bootstrap.min.css"/>
 <title>Insert title here</title>
 </head>
-<body action="RegisterServlet" method="post" background="images/4.jpeg">
-<form   >
+<body  background="images/4.jpeg">
+
 <h1 align="center">Login</h1>
 <div style="margin-left:500px;margin-right:500px;">
-    
-<form style="width:300px">
+<form  action="LoginValidate" method="post" >    
   <div class="form-group">
     <label for="email1">Email address</label>
-    <input type="email" class="form-control" id="email1" placeholder="Email" required />
+    <input type="email" class="form-control" name="Email" placeholder="Email" required />
   </div>
   <div class="form-group">
     <label for="email1">Password</label>
-    <input type="password" class="form-control" id="password" placeholder="Password" required />
+    <input type="password" class="form-control" name="Password" placeholder="Password" required />
   </div>
   
   
  
   <div class="clear" align="center">
-            <button type="submit"  class="btn btn-primary" >Login</button></a>
+            <button type="submit"  class="btn btn-primary" >Login</button>
 	  <a href="register.html"><button type="button"  class="btn btn-primary" >Register</button></a>
 	  </div>
   
-        
+     </form>   
  </div>
-    </form>
+    
 </body>
 </html>

@@ -22,12 +22,12 @@ package com.bhagavan.src;
 	    String p=request.getParameter("Password");  
 	          
 	    if(Login.validate(e, p)){  
-	        RequestDispatcher rd=request.getRequestDispatcher("Servlets");  
+	        RequestDispatcher rd=request.getRequestDispatcher("book.html");  
 	        rd.forward(request,response);  
 	    }  
 	    else{  
 	        out.print("Sorry username or password error");  
-	        RequestDispatcher rd=request.getRequestDispatcher("book.html");  
+	        RequestDispatcher rd=request.getRequestDispatcher("login.html");  
 	        rd.include(request,response);  
 	    }  
 	          
